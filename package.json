@@ -1,25 +1,34 @@
 {
-  "name": "age-ratio",
-  "version": "1.0.0",
-  "description": "Web app that ascertains if two partners are within a suitable age range to date.",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/olemak/age-ratio.git"
-  },
-  "keywords": [
-    "js"
-  ],
-  "author": "Ole Martin Kristiansen",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/olemak/age-ratio/issues"
-  },
-  "homepage": "https://github.com/olemak/age-ratio#readme",
-  "dependencies": {
-    "webpack": "^4.5.0"
-  }
+    "name": "age-ratio",
+    "version": "1.0.0",
+    "description": "Web app that ascertains if two partners are within a suitable age range to date.",
+    "main": "index.js",
+    "scripts": {
+        "test": "test",
+        "start": "webpack-dev-server --mode development --open",
+        "build": "webpack --mode production"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/olemak/age-ratio.git"
+    },
+    "keywords": [
+        "js"
+    ],
+    "author": "Ole Martin Kristiansen",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/olemak/age-ratio/issues"
+    },
+    "homepage": "https://github.com/olemak/age-ratio#readme",
+    "dependencies": {
+        "babel-loader": "^7.1.4",
+        "html-loader": "^0.5.5",
+        "html-webpack-plugin": "^3.2.0",
+        "webpack": "^4.5.0"
+    },
+    "devDependencies": {
+        "webpack-cli": "^2.0.14",
+        "webpack-dev-server": "^3.1.1"
+    }
 }
