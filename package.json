@@ -1,0 +1,25 @@
+{
+  "name": "age-ratio",
+  "version": "1.0.0",
+  "description": "Web app that ascertains if two partners are within a suitable age range to date.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olemak/age-ratio.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Ole Martin Kristiansen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olemak/age-ratio/issues"
+  },
+  "homepage": "https://github.com/olemak/age-ratio#readme",
+  "dependencies": {
+    "webpack": "^4.5.0"
+  }
+}
