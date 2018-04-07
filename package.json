@@ -8,7 +8,7 @@
         "test": "jest",
         "tests": "jest --watch",
         "test-with-coverage":
-            "jest --coverage && cat ./coverage/lcov.info | codacy-coverage --language typescript --accountToken CODACY_ACCOUNT_TOKEN --username olemak --projectName age-ratio",
+            "jest --coverage && cat ./coverage/lcov.info | codacy-coverage --language typescript --accountToken process.env.CODACY_ACCOUNT_TOKEN --username olemak --projectName age-ratio",
         "start": "webpack-dev-server --mode development --open",
         "build": "webpack --mode production"
     },
