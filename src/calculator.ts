@@ -1,5 +1,5 @@
 export const calculator = {
-    ageOne: 20,
+    ageOne: 25,
     ageTwo: 30,
 
     set age1(value: number) {
