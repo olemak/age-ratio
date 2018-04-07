@@ -16,5 +16,4 @@ export const calculator = {
         const minimumAge: number = half + 7;
         return lowestAge >= minimumAge;
     }
-    //error here
 };
