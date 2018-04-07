@@ -27,6 +27,7 @@ jobs:
           - v1-dependencies-
 
       - run: npm install
+      - run: echo 'export CODACY_ACCOUNT_TOKEN=CODACY_ACCOUNT_TOKEN'
 
       - save_cache:
           paths:
