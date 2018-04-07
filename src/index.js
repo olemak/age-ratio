@@ -1,5 +1,5 @@
 import sanitizeHtml from "sanitize-html";
-import { calculator } from "./calculator";
+import { calculator } from "./calculator.ts";
 
 function inputChange(event) {
     calculator[event.target.id] = parseInt(event.target.value);
