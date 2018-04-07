@@ -4,7 +4,8 @@
     "description": "Web app that ascertains if two partners are within a suitable age range to date.",
     "main": "index.js",
     "scripts": {
-        "test": "test",
+        "test": "jest",
+        "tests": "jest --watch",
         "start": "webpack-dev-server --mode development --open",
         "build": "webpack --mode production"
     },
@@ -13,8 +14,23 @@
         "url": "git+https://github.com/olemak/age-ratio.git"
     },
     "keywords": [
-        "js"
+        "js",
+        "typescript"
     ],
+    "jest": {
+        "transform": {
+            "^.+\\.tsx?$": "ts-jest"
+        },
+        "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "moduleFileExtensions": [
+            "ts",
+            "tsx",
+            "js",
+            "jsx",
+            "json",
+            "node"
+        ]
+    },
     "author": "Ole Martin Kristiansen",
     "license": "MIT",
     "bugs": {
@@ -27,9 +43,13 @@
         "html-webpack-plugin": "^3.2.0",
         "sanitize-html": "^1.18.2",
         "ts-loader": "^4.1.0",
+        "typescript": "^2.8.1",
         "webpack": "^4.5.0"
     },
     "devDependencies": {
+        "@types/jest": "^22.2.2",
+        "jest": "^22.4.3",
+        "ts-jest": "^22.4.2",
         "webpack-cli": "^2.0.14",
         "webpack-dev-server": "^3.1.1"
     }
