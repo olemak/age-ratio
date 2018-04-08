@@ -9,7 +9,21 @@ export const calculator = {
         this.ageTwo = value;
     },
     get ratio() {
-        const ages = [this.ageOne, this.ageTwo].sort();
+        return this.calculateRatio(this.ageOne, this.ageTwo);
+    },
+    get wait() {
+        let waitingTime: number = 0;
+        let totallyFine: boolean = false;
+        while (!totallyFine) {
+            totallyFine = this.calculateRatio(
+                this.ageOne + waitingTime,
+                this.ageTwo + waitingTime++
+            );
+        }
+        return --waitingTime;
+    },
+    calculateRatio(ageOne, ageTwo) {
+        const ages = [ageOne, ageTwo].sort();
         const lowestAge: number = ages[0];
         const highestAge: number = ages[1];
         const half: number = highestAge / 2;
