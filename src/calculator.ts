@@ -20,7 +20,7 @@ export const calculator = {
                 this.ageTwo + waitingTime++
             );
         }
-        return --waitingTime;
+        return waitingTime - 1;
     },
     calculateRatio(ageOne, ageTwo) {
         const ages = [ageOne, ageTwo].sort();
