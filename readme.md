@@ -1,6 +1,6 @@
 # Age Ratio Calculator
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f42e2bf4ccf34c92be87c4cbddf202db)](https://www.codacy.com/app/olemak/age-ratio?utm_source=github.com&utm_medium=referral&utm_content=olemak/age-ratio&utm_campaign=Badge_Grade) [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/f42e2bf4ccf34c92be87c4cbddf202db)](https://www.codacy.com/app/olemak/age-ratio?utm_source=github.com&utm_medium=referral&utm_content=olemak/age-ratio&utm_campaign=Badge_Coverage) [![CircleCI](https://circleci.com/gh/olemak/age-ratio/tree/master.svg?style=svg)](https://circleci.com/gh/olemak/age-ratio/tree/master)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f42e2bf4ccf34c92be87c4cbddf202db)](https://www.codacy.com/app/olemak/age-ratio?utm_source=github.com&utm_medium=referral&utm_content=olemak/age-ratio&utm_campaign=Badge_Grade) [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/f42e2bf4ccf34c92be87c4cbddf202db)](https://www.codacy.com/app/olemak/age-ratio?utm_source=github.com&utm_medium=referral&utm_content=olemak/age-ratio&utm_campaign=Badge_Coverage) [![CircleCI](https://circleci.com/gh/olemak/age-ratio/tree/master.svg?style=svg)](https://circleci.com/gh/olemak/age-ratio/tree/master) [![TypeScript](https://badges.frapsoft.com/typescript/version/typescript-v18.svg?v=101)](https://github.com/ellerbrock/typescript-badges/)
 
 ## Are you and your (prospective) partner of suitable age to date?
 
